@@ -20,6 +20,7 @@ Em outra janela de linha de comandos, dentro do diretório do projeto, inicie a 
 yarn android
 ```
 **Obs:** Para executar a aplicação no iOS, substitua por `yarn ios`.
+
 **Obs:** O dispositivo virtual (android ou ios) deve estar em execução no computador local.
 
 ## Principais bibliotecas e dependências de projeto
