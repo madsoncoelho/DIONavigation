@@ -5,9 +5,15 @@ Esta aplicação permite inserir suas tecnologias favoritas e fazer pesquisas di
 
 ## Instruções
 Depois de obter o projeto na sua máquina local, acesse o diretório raiz do projeto em uma janela de linha de comandos do sistema.
+
 Instale as dependências do projeto:
 ```bash
 yarn
+```
+
+Inicie o JSON Server usando o `server.json`. O aplicativo armazenará as tecnologias do usuário no `server.json` por meio de requisições feitas à API criada pelo JSON Server.
+```bash
+json-server server.json
 ```
 
 Em seguida, abra outra janela de linha de comandos, acesse o diretório do projeto novamente e inicie o Metro Server:
